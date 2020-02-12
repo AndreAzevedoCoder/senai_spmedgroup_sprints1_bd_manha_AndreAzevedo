@@ -27,8 +27,6 @@ CREATE TABLE usuario(
 	senha VARCHAR(255),
 )
 
-SELECT * FROM usuario
-
 CREATE TABLE especialidade (
 	idEspecialidade INT PRIMARY KEY IDENTITY,
 	tituloEspecialidade VARCHAR(255),
